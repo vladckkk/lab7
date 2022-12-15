@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="../3449694.png" alt="Avatar" style="width:90px">
+  <p><span>Олейников Владислав</span>Студент ДГТУ</p>
+  <p>Прекрасный преподаватель!</p>
+</div>
+
+<div class="container">
+  <img src="../png-transparent-subject-tutor-english-learning-school-school-angle-material-teacher-thumbnail.png" alt="Avatar" style="width:90px">
+  <p><span>Ахмед Магомедов.</span> СтудентДГТУ</p>
+  <p>Рекомендую.</p>
+</div>
+</body>
+</html>

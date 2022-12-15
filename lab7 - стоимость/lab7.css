@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
+.container{
+    border: 1px solid black;
+    padding: 4rem 8rem;
+    margin: 4rem;
+    border-radius: 30px;
+    box-shadow: 2px 4px 5px 5px #000;
+}
+
+.courses-form{
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-form > * + * + *{
+    margin-top: 3.5rem;
+}
+
+.courses-form p:first-child{
+    font-weight: bold;
+}
+
+select{
+    padding: 0.5rem 1.5rem;
+}
+
+select:focus-within{
+    border: 1px solid black;
+}
+
+input[type = "checkbox"]{
+    transform: scale(1.5);
+    border-radius: 0;
+    accent-color: goldenrod;
+    margin-left: 0.4rem;
+}
+
+
+.form-of-study{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.form-of-study > div{
+    margin: 0.5rem;
+}
+
+.calculate-button{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.cost{
+    margin: 1rem;
+}
+
+.total-price{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.lotery h1{
+    font-size: 1.4rem;
+}
+
+.lotery button{
+    padding: 1rem 3rem;
+    border-radius: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.lotery.lotery p{
+    font-weight: 400;
+    border: 1px solid black;
+    padding: 0.4rem 1.5rem;
+}
+
+.lotery{
+    text-align: center;
+    margin: 2rem;
+}

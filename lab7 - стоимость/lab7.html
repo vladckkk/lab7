@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetitor</title>
+    <link rel="stylesheet" href="lab7.css">
+    <script src="lab7.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="#" class="courses-form" >
+            <p>Курсы</p>
+            <div class="languages">
+                <label for="courses">Выберети ваш курс :</label>
+                <select name="courses" id="courses" class="courses">
+                    <option value="Html">Html</option>
+                    <option value="Css">Css</option>
+                    <option value="Js">Js</option>
+                </select>
+            </div>
+
+
+            <div class="frequency">
+                <label for="lessons">Сколько раз в неделю ?</label>
+                <select name="lessons" id="lessons">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="form-of-study">
+                <div class="home">
+                    <label for="home">Очная</label>
+                    <input type="checkbox" name="study" id="home">
+                </div>
+
+                <div class="distant">
+                    <label for="distant">Дистанционно</label>
+                    <input type="checkbox" name="study" id="distant">
+                </div>
+            </div>
+
+            <div class="lotery">
+                <h1>Попробуй выйграть скидку 50%</h1>
+                <button class="lotery-button">Сыграть</button>
+                <div class="numbers">
+                    <p class="inline-block lotery-number-one">1100</p>
+                    <p class="inline-block lotery-number-two">4224</p>
+                </div>
+            </div>
+
+            <button class="calculate-button">Посчитать стоимотсь</button>
+
+            <div class="cost">
+                <p>Стоимость курса:</p>
+                <div class="total-price">1000</div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
